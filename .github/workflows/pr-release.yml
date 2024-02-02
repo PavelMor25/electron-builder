@@ -41,5 +41,5 @@ jobs:
           title: 'chore(deploy): Release'
           publish: pnpm ci:publish
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REP_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
